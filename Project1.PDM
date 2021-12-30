@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=Kurdawary
+
+
+[Package|Kurdawary|My five]
+Icon1=five.exe
+Title1=My five
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Kurdawary|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\University\Visual Basic\install
+
+[Package|Kurdawary|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Kurdawary|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Kurdawary|Files Found]
+
+[Package|Kurdawary|Files Released]
+
+[Package|Kurdawary|Missing Dependency Information]
+
+[Package|Kurdawary|Out-of-Date Dependency Information]
+
+[Package|Kurdawary|Files Added]
+
+[Package|Kurdawary|Files Removed]
+
+[Package|Kurdawary|Files In Project]
+E:\University\Visual Basic\First game\five.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\Vb6stkit.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Kurdawary|Configure Registry Files]
+Applicable=No
+
+[Package|Kurdawary|Configure Remote Servers]
+Applicable=No
+
+[Package|Kurdawary|Install Locations]
+E:\University\Visual Basic\First game\five.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\Vb6stkit.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Kurdawary|Configure Shared Files]
+Applicable=Yes
+E:\University\Visual Basic\First game\five.exe=No
+
+[Package|Kurdawary|Distribution]
+Type=multi
+Size=1.2 MB
+Title=My five
+
+[Package|Kurdawary|IconGroups]
+Group0=Polla's Group
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|Kurdawary|Polla's Group]
+Icon1=five.exe
+Title1=My five
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Kurdawary|Package]
+PackageFolder=E:\University\Visual Basic\install
+ProjectFolder=E:\University\Visual Basic\First game
+ServerSideCab=
+File1=E:\University\Visual Basic\install\setup.exe
+File2=E:\University\Visual Basic\install\Setup.Lst
+File3=E:\University\Visual Basic\install\five1.CAB
+File4=E:\University\Visual Basic\install\five2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
